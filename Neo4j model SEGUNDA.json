@@ -1,0 +1,934 @@
+{
+    "modelName": "SEGUNDA",
+    "collections": [
+        {
+            "collectionName": "LEGISLADORES",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "name": "NOME",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "ac5ad970-c7c2-11eb-8672-17bfdd71172e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "86805390-c7bf-11eb-8672-17bfdd71172e"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "867cf830-c7bf-11eb-8672-17bfdd71172e",
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "code": "NOME"
+        },
+        {
+            "collectionName": "PARTIDOS",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "name": "DESCRIÇÃO",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "f9ac17c0-c7c2-11eb-8672-17bfdd71172e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c057a630-c7c0-11eb-8672-17bfdd71172e"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "c0558350-c7c0-11eb-8672-17bfdd71172e",
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "code": "DESCRIÇÃO"
+        },
+        {
+            "collectionName": "BANCADAS",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "name": "TEMA",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "074a1da0-c7c3-11eb-8672-17bfdd71172e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "cdcf8670-c7c0-11eb-8672-17bfdd71172e"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "cdccee60-c7c0-11eb-8672-17bfdd71172e",
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "code": "TEMA"
+        },
+        {
+            "collectionName": "ESTADOS",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "name": "UF",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "18b901a0-c7c3-11eb-8672-17bfdd71172e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "da1660c0-c7c0-11eb-8672-17bfdd71172e"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "da13efc0-c7c0-11eb-8672-17bfdd71172e",
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "code": "UF"
+        },
+        {
+            "collectionName": "COMISSÕES",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "name": "ASSUNTO",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "557fc880-c7c3-11eb-8672-17bfdd71172e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e3b80bb0-c7c0-11eb-8672-17bfdd71172e"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "e3b573a0-c7c0-11eb-8672-17bfdd71172e",
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "code": "ASSUNTO"
+        },
+        {
+            "collectionName": "IMPOSTOS",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "name": "ALIQUOTA",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "5e331bd0-c7c3-11eb-8672-17bfdd71172e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f8269b20-c7c0-11eb-8672-17bfdd71172e"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "f8238de0-c7c0-11eb-8672-17bfdd71172e",
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "code": "ALIQUOTA"
+        },
+        {
+            "collectionName": "LEIS",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "name": "TEXTO",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "0cb7ff60-c7c2-11eb-8672-17bfdd71172e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "name": "NUMERO",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "6939d500-c7c3-11eb-8672-17bfdd71172e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "09c9fca0-c7c1-11eb-8672-17bfdd71172e"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "09c78ba0-c7c1-11eb-8672-17bfdd71172e",
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "code": "NÚMERO",
+            "hackoladeMeta": {
+                "namingConvention": ""
+            }
+        },
+        {
+            "collectionName": "PLENÁRIO",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "name": "DATA",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "81e300e0-c7c3-11eb-8672-17bfdd71172e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "name": "SESSÃO",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "878061a0-c7c3-11eb-8672-17bfdd71172e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "793be290-c7c3-11eb-8672-17bfdd71172e"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "7935c810-c7c3-11eb-8672-17bfdd71172e",
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "MODELO_SENADORES",
+            "type": "bucket",
+            "collectionIds": [
+                "867cf830-c7bf-11eb-8672-17bfdd71172e",
+                "c0558350-c7c0-11eb-8672-17bfdd71172e",
+                "cdccee60-c7c0-11eb-8672-17bfdd71172e",
+                "da13efc0-c7c0-11eb-8672-17bfdd71172e",
+                "e3b573a0-c7c0-11eb-8672-17bfdd71172e",
+                "f8238de0-c7c0-11eb-8672-17bfdd71172e",
+                "09c78ba0-c7c1-11eb-8672-17bfdd71172e",
+                "7935c810-c7c3-11eb-8672-17bfdd71172e"
+            ],
+            "backgroundColor": {
+                "r": 0,
+                "g": 188,
+                "b": 213,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "6afe1710-c7bf-11eb-8672-17bfdd71172e"
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "",
+            "level": "entity",
+            "GUID": "012755b0-c7c2-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "PARTIDOS to LEIS",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c0558350-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "09c78ba0-c7c1-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "fe0c2110-c7c3-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "IMPOSTOS to ESTADOS",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "f8238de0-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "da13efc0-c7c0-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "0739fb90-c7c4-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "PARTIDOS to PLENÁRIO",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c0558350-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "7935c810-c7c3-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "0a487410-c7c4-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "BANCADAS to PARTIDOS",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "cdccee60-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "c0558350-c7c0-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "0e0fb540-c7c4-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "PARTIDOS to LEGISLADORES",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c0558350-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "867cf830-c7bf-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "1369cb70-c7c4-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "LEGISLADORES to BANCADAS",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "867cf830-c7bf-11eb-8672-17bfdd71172e",
+            "childCollection": "cdccee60-c7c0-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "17be0a60-c7c4-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "PARTIDOS to LEGISLADORES",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c0558350-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "867cf830-c7bf-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "8d3377d0-c7c4-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "PARTIDOS to COMISSÕES",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c0558350-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "e3b573a0-c7c0-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "eb0f8640-c7c5-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "COMISSÕES to PLENÁRIO",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "e3b573a0-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "7935c810-c7c3-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "ee4fe430-c7c5-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "COMISSÕES to BANCADAS",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "e3b573a0-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "cdccee60-c7c0-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "ef955c80-c7c5-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "PARTIDOS to IMPOSTOS",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c0558350-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "f8238de0-c7c0-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "f13020c0-c7c5-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "IMPOSTOS to PLENÁRIO",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "f8238de0-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "7935c810-c7c3-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "fa920390-c7c5-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        },
+        {
+            "name": "IMPOSTOS to LEIS",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "f8238de0-c7c0-11eb-8672-17bfdd71172e",
+            "childCollection": "09c78ba0-c7c1-11eb-8672-17bfdd71172e",
+            "level": "entity",
+            "GUID": "fd2a61b0-c7c5-11eb-8672-17bfdd71172e",
+            "lineSize": 2,
+            "bucketId": "6afe1710-c7bf-11eb-8672-17bfdd71172e",
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "6afe1710-c7bf-11eb-8672-17bfdd71172e": "MODELO_SENADORES",
+        "867cf830-c7bf-11eb-8672-17bfdd71172e": "LEGISLADORES",
+        "c0558350-c7c0-11eb-8672-17bfdd71172e": "PARTIDOS",
+        "cdccee60-c7c0-11eb-8672-17bfdd71172e": "BANCADAS",
+        "da13efc0-c7c0-11eb-8672-17bfdd71172e": "ESTADOS",
+        "e3b573a0-c7c0-11eb-8672-17bfdd71172e": "COMISSÕES",
+        "f8238de0-c7c0-11eb-8672-17bfdd71172e": "IMPOSTOS",
+        "09c78ba0-c7c1-11eb-8672-17bfdd71172e": "LEIS",
+        "012755b0-c7c2-11eb-8672-17bfdd71172e": "",
+        "0cb7ff60-c7c2-11eb-8672-17bfdd71172e": "TEXTO",
+        "ac5ad970-c7c2-11eb-8672-17bfdd71172e": "NOME",
+        "f9ac17c0-c7c2-11eb-8672-17bfdd71172e": "DESCRIÇÃO",
+        "074a1da0-c7c3-11eb-8672-17bfdd71172e": "TEMA",
+        "18b901a0-c7c3-11eb-8672-17bfdd71172e": "UF",
+        "557fc880-c7c3-11eb-8672-17bfdd71172e": "ASSUNTO",
+        "5e331bd0-c7c3-11eb-8672-17bfdd71172e": "ALIQUOTA",
+        "6939d500-c7c3-11eb-8672-17bfdd71172e": "NUMERO",
+        "7935c810-c7c3-11eb-8672-17bfdd71172e": "PLENÁRIO",
+        "81e300e0-c7c3-11eb-8672-17bfdd71172e": "DATA",
+        "878061a0-c7c3-11eb-8672-17bfdd71172e": "SESSÃO",
+        "fe0c2110-c7c3-11eb-8672-17bfdd71172e": "PARTIDOS to LEIS",
+        "0739fb90-c7c4-11eb-8672-17bfdd71172e": "IMPOSTOS to ESTADOS",
+        "0a487410-c7c4-11eb-8672-17bfdd71172e": "PARTIDOS to PLENÁRIO",
+        "0e0fb540-c7c4-11eb-8672-17bfdd71172e": "BANCADAS to PARTIDOS",
+        "1369cb70-c7c4-11eb-8672-17bfdd71172e": "PARTIDOS to LEGISLADORES",
+        "17be0a60-c7c4-11eb-8672-17bfdd71172e": "LEGISLADORES to BANCADAS",
+        "8d3377d0-c7c4-11eb-8672-17bfdd71172e": "PARTIDOS to LEGISLADORES",
+        "eb0f8640-c7c5-11eb-8672-17bfdd71172e": "PARTIDOS to COMISSÕES",
+        "ee4fe430-c7c5-11eb-8672-17bfdd71172e": "COMISSÕES to PLENÁRIO",
+        "ef955c80-c7c5-11eb-8672-17bfdd71172e": "COMISSÕES to BANCADAS",
+        "f13020c0-c7c5-11eb-8672-17bfdd71172e": "PARTIDOS to IMPOSTOS",
+        "fa920390-c7c5-11eb-8672-17bfdd71172e": "IMPOSTOS to PLENÁRIO",
+        "fd2a61b0-c7c5-11eb-8672-17bfdd71172e": "IMPOSTOS to LEIS"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "4dea1700-c7bf-11eb-8672-17bfdd71172e"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "4dea1701-c7bf-11eb-8672-17bfdd71172e"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "3.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2021-06-07T18:36:42.479Z",
+    "GUID": "4de9eff0-c7bf-11eb-8672-17bfdd71172e",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "lastModifTS": "2021-06-07T19:41:16.506Z",
+    "persistenceSchemaVersion": "5",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.30",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "5.0.2"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "867cf830-c7bf-11eb-8672-17bfdd71172e",
+                        "x": 39,
+                        "y": 62,
+                        "width": 207,
+                        "height": 47,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "c0558350-c7c0-11eb-8672-17bfdd71172e",
+                        "x": 236,
+                        "y": 104,
+                        "width": 183,
+                        "height": 47,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "cdccee60-c7c0-11eb-8672-17bfdd71172e",
+                        "x": 155,
+                        "y": 147,
+                        "width": 185,
+                        "height": 47,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "da13efc0-c7c0-11eb-8672-17bfdd71172e",
+                        "x": 318,
+                        "y": 214,
+                        "width": 175,
+                        "height": 47,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "e3b573a0-c7c0-11eb-8672-17bfdd71172e",
+                        "x": 206,
+                        "y": 270,
+                        "width": 189,
+                        "height": 47,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "f8238de0-c7c0-11eb-8672-17bfdd71172e",
+                        "x": 148,
+                        "y": 323,
+                        "width": 182,
+                        "height": 47,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "09c78ba0-c7c1-11eb-8672-17bfdd71172e",
+                        "x": 338,
+                        "y": 382,
+                        "width": 171,
+                        "height": 61,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "012755b0-c7c2-11eb-8672-17bfdd71172e",
+                        "x": 40,
+                        "y": 40,
+                        "width": 122,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7935c810-c7c3-11eb-8672-17bfdd71172e",
+                        "x": 72,
+                        "y": 338.79999923706055,
+                        "width": 179,
+                        "height": 61,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "fe0c2110-c7c3-11eb-8672-17bfdd71172e",
+                        "x": 60,
+                        "y": 60,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "0739fb90-c7c4-11eb-8672-17bfdd71172e",
+                        "x": 80,
+                        "y": 80,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "0a487410-c7c4-11eb-8672-17bfdd71172e",
+                        "x": 100,
+                        "y": 100,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "0e0fb540-c7c4-11eb-8672-17bfdd71172e",
+                        "x": 120,
+                        "y": 120,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "1369cb70-c7c4-11eb-8672-17bfdd71172e",
+                        "x": 140,
+                        "y": 140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "17be0a60-c7c4-11eb-8672-17bfdd71172e",
+                        "x": 160,
+                        "y": 160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "8d3377d0-c7c4-11eb-8672-17bfdd71172e",
+                        "x": 180,
+                        "y": 180,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "eb0f8640-c7c5-11eb-8672-17bfdd71172e",
+                        "x": 200,
+                        "y": 200,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "ee4fe430-c7c5-11eb-8672-17bfdd71172e",
+                        "x": 220,
+                        "y": 220,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "ef955c80-c7c5-11eb-8672-17bfdd71172e",
+                        "x": 240,
+                        "y": 240,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "f13020c0-c7c5-11eb-8672-17bfdd71172e",
+                        "x": 260,
+                        "y": 260,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "fa920390-c7c5-11eb-8672-17bfdd71172e",
+                        "x": 280,
+                        "y": 280,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "fd2a61b0-c7c5-11eb-8672-17bfdd71172e",
+                        "x": 300,
+                        "y": 300,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": -1,
+                        "y": 20,
+                        "GUID": "6afe1710-c7bf-11eb-8672-17bfdd71172e"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "867cf830-c7bf-11eb-8672-17bfdd71172e",
+                            "size": 100,
+                            "x": 203.9858057353858,
+                            "y": 187.41949410943943
+                        },
+                        {
+                            "GUID": "c0558350-c7c0-11eb-8672-17bfdd71172e",
+                            "size": 100,
+                            "x": 397.1549965023536,
+                            "y": 417.9344992507669
+                        },
+                        {
+                            "GUID": "cdccee60-c7c0-11eb-8672-17bfdd71172e",
+                            "size": 100,
+                            "x": 100,
+                            "y": 468.8546268506862
+                        },
+                        {
+                            "GUID": "da13efc0-c7c0-11eb-8672-17bfdd71172e",
+                            "size": 100,
+                            "x": 817.1786244263546,
+                            "y": 646.9623742343322
+                        },
+                        {
+                            "GUID": "e3b573a0-c7c0-11eb-8672-17bfdd71172e",
+                            "size": 100,
+                            "x": 290.8988098508779,
+                            "y": 700.2114270885437
+                        },
+                        {
+                            "GUID": "f8238de0-c7c0-11eb-8672-17bfdd71172e",
+                            "size": 100,
+                            "x": 695.8843227589108,
+                            "y": 372.1222375635239
+                        },
+                        {
+                            "GUID": "09c78ba0-c7c1-11eb-8672-17bfdd71172e",
+                            "size": 100,
+                            "x": 508.0011647821575,
+                            "y": 138.14096316953862
+                        },
+                        {
+                            "GUID": "7935c810-c7c3-11eb-8672-17bfdd71172e",
+                            "size": 100,
+                            "x": 586.8692964062387,
+                            "y": 651.8875895303971
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 60,
+                            "y": 98.14096316953862,
+                            "GUID": "6afe1710-c7bf-11eb-8672-17bfdd71172e"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "hideRelationshipName": false,
+                    "showPropertiesBoxes": false,
+                    "nameAlongTheLine": false,
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true,
+            "hideErdDetails": false,
+            "shouldDistributeCollections": false
+        }
+    }
+}
