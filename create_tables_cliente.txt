@@ -1,0 +1,40 @@
+CREATE SCHEMA banco;
+CREATE TABLE banco.cliente (
+    id  serial,
+    nome VARCHAR(255) NOT NULL,
+    sexo char(2),
+    idade INTEGER,
+    PRIMARY KEY (id)
+);
+
+
+CREATE TABLE banco.conta(
+    conta_id      serial,
+    agencia_id       int NOT NULL,
+    gerente_id       int NOT NULL,
+    saldo         decimal(12,2) NOT NULL DEFAULT 0,
+    PRIMARY KEY (conta_id)
+
+);
+
+
+
+CREATE TABLE banco.gerente(
+    gerente_id       serial,    
+    agencia_id       int NOT NULL,
+    nome_agencia     varchar(100) NOT NULL,
+    saldo         decimal(12,2) NOT NULL DEFAULT 0,
+    PRIMARY KEY (gerente_id)
+);
+
+
+CREATE TABLE banco.agencia(
+    agencia_id       serial, 
+    saldo         decimal(12,2) NOT NULL DEFAULT 0,
+    PRIMARY KEY (agencia_id)
+);
+
+-- inserir dados dentro da tabela cliente e mudei o tipo da idade para numero inteiro
+
+insert into banco.cliente(nome, sexo, idade)
+select 'Joao', "Sexo", cast ("Idade" as integer)  from public.dados_banco

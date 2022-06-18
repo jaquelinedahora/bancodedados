@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS public.dados_banco
+(
+    id serial,
+    "Cliente" character varying COLLATE pg_catalog."default",
+    "Sexo" char(2),
+    "Idade" integer,
+    "Empresa" character varying COLLATE pg_catalog."default",
+    "Salario" decimal(12,2),
+    "Saldo_cc" decimal(12,2),
+    "Saldo_poupança" decimal(12,2),
+    "Saldo_investimento" decimal(12,2),
+    "Devedor_cartao" decimal(12,2),
+    "Inadimplente" bit,
+    
+    CONSTRAINT dados_banco_pkey PRIMARY KEY (id)
+)
+

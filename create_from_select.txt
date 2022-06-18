@@ -1,0 +1,2 @@
+create table banco_dados2 as
+select * from dados_banco 

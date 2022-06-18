@@ -1,0 +1,2 @@
+select * from banco.agencia
+left join banco.conta on banco.agencia.agencia_id = banco.conta.agencia_id

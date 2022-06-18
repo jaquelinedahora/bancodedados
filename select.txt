@@ -1,0 +1,2 @@
+SELECT avg(saldo), max(saldo) FROM banco.agencia
+group by saldo
